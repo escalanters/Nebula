@@ -1,0 +1,22 @@
+<%@ page pageEncoding="UTF-8" %>
+<nav class="main-nav">
+
+
+    <a class="logo" href="${pageContext.request.contextPath}/index.jsp">
+        <img src="${pageContext.request.contextPath}/assets/imgs/nebula-03.png" alt="Nebula Music">
+    </a>
+
+    <input type="checkbox" id="menu-toggle">
+
+    <label for="menu-toggle" class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+
+    <ul class="nav-links">
+        <li><a href="${pageContext.request.contextPath}/views/application/about.jsp">Nosotros</a></li>
+        <li><a href="${pageContext.request.contextPath}/albums">Mis Álbumes</a></li>
+    </ul>
+
+</nav>

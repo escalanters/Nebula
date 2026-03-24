@@ -58,6 +58,10 @@ public class Usuario implements Serializable {
         this.albumes = albumes;
     }
 
+    public void setId(Long id){
+        this.id = id;
+    }
+    
     public Set<Album> getAlbumes() {
         return albumes;
     }
